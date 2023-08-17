@@ -1,0 +1,357 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#ebebeb;
+	margin:0;
+	
+}
+div#box{
+	overflow:auto;
+	height:auto;
+
+}
+div#box2{
+	margin:0 auto;
+	height:115px;
+	width:1024px;
+}
+div#maindiv{
+	width:1024px;
+	margin:0 auto;
+	height:115px;
+}
+div#strip{
+	width:100%;
+	
+	
+	height:30px;
+	background-position:top;
+	
+background-image:url(../images/hedder-bg.png);
+background-repeat:repeat-x;
+
+z-index: -1;
+}
+div#logo{
+	width:218px;
+	height:106px;
+	position:absolute;
+	margin-top:-30px;
+	background-image:url(../images/logo.png);
+	background-repeat:no-repeat;
+	margin-left:30px;
+	
+}
+#containbox{
+	width:1050px;
+	height:auto;
+	margin:0 auto;
+	overflow:auto;
+	}
+#button{
+	width:215px;
+	height:auto;
+	overflow:auto;
+	float:left;
+	margin-left:40px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#545353;
+}
+#bttn1{
+	width:190px;
+	height:18px;
+	border-bottom:dotted 1px #CCC;
+	padding-top:5px;
+	padding-left:10px;
+	margin-left:10px;
+	margin-top:8px;	
+}
+#bttn1 a{
+	width:190px;
+	height:18px;
+
+	padding-top:5px;
+		color:#545353;
+	text-decoration:none;	
+}
+#bttn2{
+	width:190px;
+	height:18px;
+	border-bottom:dotted 1px #CCC;
+	padding-top:5px;
+	padding-left:10px;
+	margin-left:8px;
+}
+#bttn2 a{
+	width:190px;
+	height:18px;
+	padding-top:5px;
+	color:#545353;
+	text-decoration:none;
+
+}
+#bttn2 a:hover{
+	width:190px;
+	height:17px;
+	padding-top:13px;
+	text-decoration:none;
+	color:#a10f0f;
+}
+#maincontainbox{
+	width:785px;
+	float:right;
+	height:auto;
+	
+	overflow:hidden;
+}
+.top-border{
+	background-image:url(../images/top-strip.png);
+	background-repeat:repeat-x;
+}
+.left-border{
+	background-image:url(../images/left-strip.png);
+	background-repeat:repeat-y;
+}
+.right-border{
+	background-image:url(../images/right-strip.png);
+	background-repeat:repeat-y;
+}
+.bottom-border{
+	background-image:url(../images/bottom-strip.png);
+	background-repeat:repeat-x;
+}
+.cornor-left{
+	background-image:url(../images/c-left.png);
+	background-repeat:no-repeat;
+}
+.cornor-right{
+	background-image:url(../images/c-right.png);
+	background-repeat:no-repeat;
+}
+#galeryhedder{
+	width:730px;
+	height:30px;
+}
+.gallery-images{/**/
+	width:733px;
+	height:auto;
+	float:left;
+}
+#gallery-images-box{
+	width:175px;
+	height:135px;
+	position:relative;
+    overflow:hidden;
+	clear:both;
+    cursor:pointer;
+
+}
+#gallery-thumb{
+	width:175px;
+	height:135px;
+	
+}
+#gallery-txt{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding-top:8px;
+	width:175px;
+	height:15px;
+}
+
+.hs_container .hs_area{
+	position:absolute;
+	overflow:hidden;
+}
+.hs_area img{
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.hs_area img.hs_visible{
+	display:block;
+	z-index:9999;
+}
+
+.hs_area1{
+	width:175px;
+	height:135px;
+	top:135px;
+	left:451px;
+}
+#leftfloat{
+	float:left;
+}
+#leftfloat1{
+	float:left;
+	margin-left:10px;
+}
+#leftfloat2{
+	float:left;
+	margin-top:15px;
+}
+#leftfloat3{
+	float:left;
+	margin-top:15px;
+	margin-left:10px;
+}
+#righthandmenu{
+	width:160px;
+	height:auto;
+	overflow:auto;
+	float:right;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#999;
+	line-height:1.5em;
+}
+
+.right-btn a:hover{
+	background-image:url(../images/arrow.png);
+	background-repeat:no-repeat;
+	padding-left:10px;
+	margin:0 5px 5px 0 ;
+}
+
+
+	/* --[[ Sub Items ]]-- */
+	
+
+
+
+		/* [hover] - These settings must be duplicated for IE comptatibility.*/
+		#imenus0{width:155px;
+		height:18px;
+		padding-left:5px;
+		 font-size:11px; font-weight:normal;
+		 text-decoration:none;
+		 color:#999999;
+		 overflow:hidden;
+		}
+
+
+		#imenus0 a:hover{ text-decoration:none; background-color:#F0ECED!important;color:#004591!important; font-size:11px; font-weight:normal;background-image:url(../images/plus12.png)!important; background-repeat:no-repeat!important; background-position:left!important; padding-left:20px; padding-right:10px; margin-left:-10px; padding-top:3px; padding-bottom:3px;}
+
+		/* [active] */
+		#imenus0 ul li a.iactive {background-color:#F0ECED; text-decoration:none;background-image:url(../images/plus12.png)!important; background-repeat:no-repeat!important; background-position:left!important;}
+		
+		#thumbSmall{
+			width:270px;
+			height:300px;
+			float:right;
+		}
+		.bredcum{
+			margin-right:10px;  font-family:Arial, Helvetica, sans-serif; font-size:12px;
+		
+		
+		}
+		.bredcumlink{
+			text-decoration:none;
+			color:#a10f0f;
+		}
+.footerright{
+	width:775px;
+	float:right;
+	height:30px;
+	margin-top:10px;
+	margin-bottom:20px;
+	color:#545353;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+.footerright a{
+	text-decoration:none;
+
+	color:#545353;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+.footerright a:hover{
+
+	color:#a10f0f;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+.contactus{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#686868;
+}
+#gallerymenuhead{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333333;
+	width:140px;
+	padding:9px 0px 3px 0px;
+	
+}
+#gallerymenuhead1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333333;
+	width:140px;
+	padding:12px 0px 3px 0px;
+	
+}
+#galleryboxdiv{
+	width:730px;
+	height:auto;
+	overflow:auto;
+	
+}
+#aboutArtist{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666666;
+	padding-left:10px;
+	padding-top:10px;
+	width:450px;
+	height:auto;
+	overflow:auto;
+}
+#contempary{
+	float:left; width:733px; height:30px; margin-top:15px; border-top:solid 1px #CCC; 
+}
+#contempary1{
+	float:left; width:733px; height:30px;  border-top:solid 1px #CCC;/**/
+}
+.confont{
+	padding-top:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333;
+}
+
+.rslides {
+  position: relative;
+  list-style: none;
+  
+  width:733px;
+  height:394px;
+  padding:0;
+  margin: 0;
+  }
+
+.rslides li {
+  position: absolute;
+  display: none;
+  width: 733px;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
